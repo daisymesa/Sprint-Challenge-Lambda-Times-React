@@ -7,7 +7,7 @@ const Tab = props => {
       if it is not it should just be 'tab'*/
   let tabClassName = 'tab';
   if (props.tab === props.selectedTab) {
-    let tabClassName = 'tab active-tab'
+    tabClassName = 'tab active-tab'
   } 
 
   return (
